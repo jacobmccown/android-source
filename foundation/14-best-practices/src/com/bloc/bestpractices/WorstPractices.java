@@ -38,10 +38,12 @@ private static int animals(boolean yeswellheresthething) {
 	
 	for (int brown = 0; brown < aInt; brown++){ 
 		sparklesfairy *= aInt;
-	} 
+	
+		} 
 
 	return (int) sparklesfairy * aInt;
-}
+	
+	}
 
 	/************************************************
 	 *	ASSIGNMENT
