@@ -32,9 +32,9 @@ public class Methods extends Object {
 	 * @return the logical opposite of the original
 	 */
 	public boolean giveMeTheOpposite(boolean original) {
-		/************************************************
-		 * Your work goes here
-		 ************************************************/
+		
+			boolean original = true;
+			original = !original; 
 
 		// You are free to modify the return statement
 		return false;
@@ -57,9 +57,12 @@ public class Methods extends Object {
 	 * @return nothing
 	 */
 	public void flipTheSign(int[] numbers) {
-		/************************************************
-		 * Your work goes here
-		 ************************************************/
+		int flips [] = {4,-5,8,3,22,-9}
+			for(int i =0; i<flips.length; i++){
+				flippedSign = -1 * flips[i];
+
+			}
+
 	}
 
 
@@ -87,12 +90,15 @@ public class Methods extends Object {
 	 * @return an array of booleans
 	 */
 	public boolean[] boolsRule(int floor, int[] someNumbers) {
-		/************************************************
-		 * Your work goes here
-		 ************************************************/
+		
+		 [] someNumbers = {4,9,12,4,6,8};
+			for(int i = 0; i < somNumbers.length; i++){
+				boolean floor = 8 <= someNumbers[i];
+			}
+
 
 		// You are free to modify the return statement
-		return new boolean [0];
+		return boolean floor [0];
 	}
 
 	/*
@@ -114,13 +120,25 @@ public class Methods extends Object {
 	 * @return an array of length 2: {min, max}
 	 */
 	public int[] getMinAndMax(int[] someNumbers) {
-		/************************************************
-		 * Your work goes here
-		 ************************************************/
-
-		// You are free to modify the return statement
-		return new int[2];
+		public static int getMaxValue(int[] numbers){  
+  int maxValue = numbers[0];  
+  for(int i=1;i < numbers.length;i++){  
+    if(numbers[i] > maxValue){  
+      maxValue = numbers[i];  
+    }  
+  }  
+  return maxValue;  
 	}
+
+	public static int getMinValue(int[] numbers){  
+  int minValue = numbers[0];  
+  for(int i=1;i<numbers.length;i++){  
+    if(numbers[i] < minValue){  
+      minValue = numbers[i];  
+    }  
+  }  
+  return minValue;  
+}  
 
 
 	/************************************************
